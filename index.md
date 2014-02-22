@@ -1,16 +1,17 @@
 ---
 layout: page
 title: Hello frog!
-tagline: About algorithm, about life
+tagline: About algorithm About life
 ---
 {% include JB/setup %}
 
-    while (IsAlive(dream))
+    while (is_alive(dream))
     {
-      fllow my heart(true);
+      fllow_my_heart(true);
     }
-    
-<ul class="recent posts">
+  
+# Recent Posts
+<ul class="post">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
