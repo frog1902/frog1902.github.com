@@ -1,7 +1,7 @@
 ﻿---
-layout: post
+layout : post
 category : life
-tagline: "Supporting tagline"
+tagline : "Supporting tagline"
 tags : [diary]
 ---
 {% include JB/setup %}
