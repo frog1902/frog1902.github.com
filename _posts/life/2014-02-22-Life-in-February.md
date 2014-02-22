@@ -1,8 +1,9 @@
 ﻿---
-layout : post
-category : life
-tagline : "Supporting tagline"
-tags : [diary]
+layout: post
+title: "Life in February"
+description: "Life in February"
+category: life
+tags: [diary]
 ---
 {% include JB/setup %}
 
