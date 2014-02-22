@@ -1,9 +1,9 @@
 ﻿---
 layout: post
 category : life
-tagline: ""
+tagline: "Supporting tagline"
 tags : [diary]
----
+------
 {% include JB/setup %}
 
 ## 2013.02.22
