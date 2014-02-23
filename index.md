@@ -16,3 +16,13 @@ tagline: About algorithm About life
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<section>
+   <h3>Latest Comments</h3>
+   <ul class="ds-recent-comments" data-num-items="10" data-show-avatars="0" data-show-time="0" data-show-title="0" data-show-admin="0" data-excerpt-length="18"></ul>
+</section>
+
+<section style="width:250px;">
+    <h3>Recently Visitors</h3>
+    <ul class="ds-recent-visitors" data-num-items="4" data-avatar-size="45" style="margin-top:10px;"></ul>
+</section>
