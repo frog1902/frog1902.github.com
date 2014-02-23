@@ -10,12 +10,14 @@ tagline: About algorithm About life
       fllow_my_heart(true);
     }
   
-# Recent Posts
 <ul class="post">
+<section>
+   <h3>Recent Posts</h3>
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+</section>
 
 <section>
    <h3>Latest Comments</h3>
