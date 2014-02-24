@@ -29,9 +29,6 @@ tagline: About algorithm About life
     <ul class="ds-recent-visitors" data-num-items="4" data-avatar-size="45" style="margin-top:10px;"></ul>
 </section>
 
-<section style="width:250px;">
-<h3>Visitors Count</h3>
-<div align="center">
-    <a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3164418&c=9493567" alt="AmazingCounters.com"></a>
+<div style="max-width:250px;">
+<img src="http://cc.amazingcounters.com/counter.php?i=3164418&c=9493567" alt="AmazingCounters.com" title="Visitors Count" width="250" />
 </div>
-</section>
