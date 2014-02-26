@@ -15,14 +15,14 @@ tags: [ACM,solution,TC,DP]
 完成任务的顺序不限，问至多完成多少个任务。
 
 ## 算法
-先排序再背包
+先排序再背包。
 排序的时候要先按照refuel[i]从大到小，再按照duration[i]从大到小。
 因为我们排序的目的是要保证背包的过程中，得到的解的顺序一定是最优顺序。
 也就是说，如果a,b任务都被正解选中，那么a,b在排序后序列中的相对位置一定要是它们在正解中的相对位置。
 那么我们不妨假设任务已经被选中，这时要怎样排序呢？
-排序的任务实际上是要使得，对于任意i, F - <pre xml:lang="latex">\sum_{i=0}^{i-1}-duration[i] + refuel[i]</pre> - duration[i] 尽量大
-那么若x在y前，y受到的影响是-duration[x] + refuel[x] - duration[y]
-若y在x前，x受到的影响是-duration[y] + refuel[y] - duration[x]
+排序的任务实际上是要使得，对于任意i, <pre xml:lang="latex">F - \sum_{i = 0}^{i - 1} - duration[i] + refuel[i] - duration[i]</pre>尽量大。
+那么若x在y前，y受到的影响是-duration[x] + refuel[x] - duration[y]。
+若y在x前，x受到的影响是-duration[y] + refuel[y] - duration[x]。
 两者相消，可知用refuel排序，refuel相同时，显然duration大的在前。
 
 ##代码
