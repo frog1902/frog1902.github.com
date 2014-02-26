@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "TC SRM552-550 AlbertoTheAviator"
-description: "TC SRM552-550 AlbertoTheAviator"
+title: "TC SRM610-550 AlbertoTheAviator"
+description: "TC SRM610-550 AlbertoTheAviator"
 category: ACM-solutions
 tags: [ACM,solution,TC,DP]
 ---
